@@ -1,3 +1,5 @@
+//Uma SegTree qualquer By Breno Moura
+
 struct seg{
   // coloque aqui os parametros de sua seg =D
   // int soma;
