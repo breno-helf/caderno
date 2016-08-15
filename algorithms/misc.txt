@@ -1,0 +1,16 @@
+//Esta eh uma miscelanea de funcoes uteis para competicoes
+
+
+atoi(#nome do vetor) -> converte vetor de char para inteiro
+atoll(#nome do vetor) -> converte vetor de char para long long
+stoi(#nome da string) -> converte string para inteiro
+
+
+next_permutation(v.begin(), v.end()) -> gera proxima permutacao lexicografica de um vetor (de char, de inteiros, etc.)
+prev_permutation(v.begin(), v.end()) -> gera permutacao lexicografica anterior de um vetor (de char, de inteiros, etc.)
+
+
+__builtin_popcount(x) -> retorna o quantidade de bits '1' do binario do numero inteiro x
+__builtin_popcountll(x) -> retorna o quantidade de bits '1' do binario do numero long long x
+__builtin_ctz(x) -> retorna a quantidade de trailing zeros do binario do numero inteiro x
+__builtin_ctzll(x) -> retorna a quantidade de trailing zeros do binario do numero long long x
