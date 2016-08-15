@@ -3,7 +3,7 @@
 
 atoi(#nome do vetor) -> converte vetor de char para inteiro
 atoll(#nome do vetor) -> converte vetor de char para long long
-stoi(#nome da string) -> converte string para inteiro
+stoi(#nome da string) -> converte string para inteiro [C++11]
 
 
 next_permutation(v.begin(), v.end()) -> gera proxima permutacao lexicografica de um vetor (de char, de inteiros, etc.)
