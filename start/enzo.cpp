@@ -3,7 +3,6 @@
 #define dbc(x) cerr << x << "\n"
 #define dbn(x) cerr << #x << " == " << x << "\n"
 #define endl '\n'
-#define bits(x) __builtin_popcount(x)
 #define m(x) memset((x),0,sizeof(x))
 #define minf(x) memset((x),63,sizeof(x))
 #define eb emplace_back
