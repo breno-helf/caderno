@@ -1,4 +1,4 @@
-//Esse é tarjan, um algorítimo para encontrar componentes fortemente conexas. Desfrute :D
+//Tarjan by Breno Moura, um algorítimo para encontrar componentes fortemente conexas. Desfrute :D
 
 int low[MAXN], d[MAXN], sn, st[10*MAXN], tempo;
 int marc[MAXN];
