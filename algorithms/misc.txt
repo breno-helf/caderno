@@ -10,7 +10,7 @@ next_permutation(v.begin(), v.end()) -> gera proxima permutacao lexicografica de
 prev_permutation(v.begin(), v.end()) -> gera permutacao lexicografica anterior de um vetor (de char, de inteiros, etc.)
 
 
-__builtin_popcount(x) -> retorna o quantidade de bits '1' do binario do numero inteiro x
-__builtin_popcountll(x) -> retorna o quantidade de bits '1' do binario do numero long long x
+__builtin_popcount(x) -> retorna a quantidade de bits '1' do binario do numero inteiro x
+__builtin_popcountll(x) -> retorna a quantidade de bits '1' do binario do numero long long x
 __builtin_ctz(x) -> retorna a quantidade de trailing zeros do binario do numero inteiro x
 __builtin_ctzll(x) -> retorna a quantidade de trailing zeros do binario do numero long long x
