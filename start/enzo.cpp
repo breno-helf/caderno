@@ -24,9 +24,3 @@ typedef set<pii> sii;
 const int MAXM = 1e4 + 10;
 const int MAXN = 1e3 + 10;
 const int INF = 0x3f3f3f3f;
-
-//
-
-int main(){
-
-}
