@@ -4,6 +4,10 @@
 atoi(#nome do vetor) -> converte vetor de char para inteiro
 atoll(#nome do vetor) -> converte vetor de char para long long
 stoi(#nome da string) -> converte string para inteiro [C++11]
+to_string(x) -> converte um valor numerico x (int, long long, double, float, etc.) para string [C++11]
+
+
+reverse(v.begin(), v.end()) -> Inverte a ordem dos elementos do range especificado em tempo linear na metade da distancia entre comeco e fim
 
 
 next_permutation(v.begin(), v.end()) -> gera proxima permutacao lexicografica de um vetor (de char, de inteiros, etc.)
