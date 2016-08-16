@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define pb push_back
-
 vector<int> pilha;
 int n;
 
@@ -22,7 +18,7 @@ int main(){
 		// ou seja, todos os topos de pilha são menores ou iguais a x
 		
 		// logo, criamos uma nova pilha e colocamos x no seu topo
-		if(it==pilha.end()) pilha.PB(x);
+		if(it==pilha.end()) pilha.pb(x);
 		
 		// porém, se it apontar para alguma posição válida do vector
 		// colocamos x no topo desta pilha, substintuindo o valor que it aponta por x
