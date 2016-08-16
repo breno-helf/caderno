@@ -7,6 +7,9 @@ stoi(#nome da string) -> converte string para inteiro [C++11] (atencao: nao colo
 to_string(x) -> converte um valor numerico x (int, long long, double, float, etc.) para string [C++11]
 
 
+(#nome da string).find_first_not_of("213") -> retorna primeira posicao de um char q nao se encontra no parametro (no caso a primeira posicao de um char nao eh '2', nem '1', nem '3'
+
+
 reverse(v.begin(), v.end()) -> Inverte a ordem dos elementos do range especificado em tempo linear na metade da distancia entre comeco e fim
 
 
