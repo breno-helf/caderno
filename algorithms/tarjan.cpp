@@ -1,6 +1,6 @@
 //Tarjan by Breno Moura, um algorítimo para encontrar componentes fortemente conexas. Desfrute :D
 
-int low[MAXN], d[MAXN], sn, st[10*MAXN], tempo;
+int low[MAXN], d[MAXN], sn, st[10*MAXN], tempo; // Iniciar tudo com 0
 int marc[MAXN];
 
 
