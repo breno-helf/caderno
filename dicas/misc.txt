@@ -3,7 +3,7 @@
 
 atoi(#nome do vetor) -> converte vetor de char para inteiro
 atoll(#nome do vetor) -> converte vetor de char para long long
-stoi(#nome da string) -> converte string para inteiro [C++11]
+stoi(#nome da string) -> converte string para inteiro [C++11] (atencao: nao colocar uma string com valor maior q INT_MAX)
 to_string(x) -> converte um valor numerico x (int, long long, double, float, etc.) para string [C++11]
 
 
