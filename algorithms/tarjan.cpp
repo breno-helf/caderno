@@ -1,7 +1,7 @@
 //Tarjan by Breno Moura, um algorítimo para encontrar componentes fortemente conexas. Desfrute :D
 
 int low[MAXN], d[MAXN], sn, st[10*MAXN], tempo; // Iniciar tudo com 0
-int marc[MAXN];
+int marc[MAXN], num;
 
 
 void scc(int u) {
@@ -25,8 +25,9 @@ void scc(int u) {
       cur++;
       d[a] = INF;
       --sn;
-      comp.pb(a);
+      comp[num].pb(a);
     }
+    num++;
     // Aqui você pode brincar com os elementos da componente.
     
   }
