@@ -23,5 +23,7 @@ prev_permutation(v.begin(), v.end()) -> gera permutacao lexicografica anterior d
 
 __builtin_popcount(x) -> retorna a quantidade de bits '1' do binario do numero inteiro x
 __builtin_popcountll(x) -> retorna a quantidade de bits '1' do binario do numero long long x
-__builtin_ctz(x) -> retorna a quantidade de trailing zeros do binario do numero inteiro x
-__builtin_ctzll(x) -> retorna a quantidade de trailing zeros do binario do numero long long x
+__builtin_ctz(x) -> retorna a quantidade de trailing zeroes (bits menos significativos) do binario do numero inteiro x
+__builtin_ctzll(x) -> retorna a quantidade de trailing zeroes (bits menos significativos) do binario do numero long long x
+__builtin_clz(x) -> retorna a quantidade de leading zeroes (bits mais significativos) do binario do numero inteiro x
+__builtin_clzll(x) -> retorna a quantidade de leading zeroes (bits mais significativos) do binario do numero long long x
